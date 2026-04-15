@@ -41,17 +41,18 @@ th, td {
 .box {
   width: 50%;
 }
-@media (max-width: 768px) {
-  .box {
-    width: 100%;
-  }
-}
+
 img {
   max-width: 100%;
   height: auto;
 }
+   
 
-media (max-width: 600px) 
+    
+
+    
+
+  @media (max-width: 600px) {
     table {
         width: 100%;
     }
@@ -60,6 +61,11 @@ media (max-width: 600px)
         width: 90%;
     }
 
-    nav {
-        flex-direction: column;
+    .nav {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 10px;
+        padding: 10px 0;
     }
+}
+

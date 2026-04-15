@@ -50,3 +50,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+media (max-width: 600px) 
+    table {
+        width: 100%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
